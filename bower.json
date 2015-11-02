@@ -1,0 +1,14 @@
+{
+  "name": "numberToPortuguese",
+  "authors": [
+    "ricardosfp <ricardofelgueiras1993@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "written-number": "~0.2.2"
+  }
+}

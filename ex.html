@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<script src="bower_components/written-number/dist/written-number.min.js"></script>
+<p id = "p"></p>
+<script>
+
+    for (i = 0; i < 501; i++)
+    {
+        console.log("<item>")
+        console.log(writtenNumber(i, { lang: 'pt' }) + "<tag>")
+        console.log("out.operand=\""+i+"\"")
+        console.log("</tag>")
+        console.log("</item>")
+        console.log("\n")
+    }
+
+
+</script>
+
+</body>
+</html>
